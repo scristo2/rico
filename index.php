@@ -37,7 +37,9 @@ header("Connection: close");
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container">
-                    <a class="navbar-brand" href="#"><img src="" alt="Logo" class="img-fluid rounded-circle logo" /></a>
+                    <a class="navbar-brand" href="#">
+                        <p>Muslero</p>
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -74,8 +76,22 @@ header("Connection: close");
                 </div>
             </nav>
         </header>
-        <main>
-            this is the main
+        <main class="p-4">
+            <div class="container">
+
+                <div class="row height d-flex justify-content-center align-items-center">
+
+                    <div class="col-md-8">
+
+                        <div class="search">
+                            <i class="fa fa-search"></i>
+                            <input type="text" class="form-control" placeholder="¿Que buscas?">
+                            <button class="btn btn-primary">Buscar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- Footer -->
         <footer class="bg-dark text-center text-white">
