@@ -40,3 +40,21 @@
         background: green;
 
        }
+
+
+       .matches{
+
+              box-shadow: 0 0 40px blanchedalmond;
+              padding: 2px;
+              overflow: auto;
+              max-height: 200px; 
+       }
+
+
+       .match-ul{
+
+              list-style-type: none;
+       }
+
+
+      

@@ -91,7 +91,23 @@ header("Connection: close");
 
                     </div>
                 </div>
+
+                <div class="row height d-flex justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <div class="matches">
+                            <section class="mb-4">
+                                <ul class="match-ul p-4">
+                                    <li class="match-li">
+                                        <p><i class="fa fa-star text-warning"></i><span class="fw-bold"> Lo mas buscado</span></p>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+            <!--end container inside main-->
         </main>
         <!-- Footer -->
         <footer class="bg-dark text-center text-white">
