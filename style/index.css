@@ -56,5 +56,24 @@
               list-style-type: none;
        }
 
+       .li-more-visited{
+
+              margin-top: 12px;
+       }
+
+       .li-more-visited:hover{
+
+              background-color: cornsilk;
+              cursor: pointer;
+              color: red;
+       }
+
+ .li-more-visited-product{
+
+      font-weight: 900;
+      margin-left: 10px;
+      border-bottom: 1px solid black;
+ }      
+
 
       

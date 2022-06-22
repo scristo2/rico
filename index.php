@@ -91,21 +91,27 @@ header("Connection: close");
 
                     </div>
                 </div>
-
+                 <!---->
                 <div class="row height d-flex justify-content-center align-items-center">
                     <div class="col-md-6">
                         <div class="matches">
                             <section class="mb-4">
                                 <ul class="match-ul p-4">
                                     <li class="match-li">
-                                        <p><i class="fa fa-star text-warning"></i><span class="fw-bold"> Lo mas buscado</span></p>
+                                        <p><i class="fa fa-star text-warning"></i><span class="fw-bold text-decoration-underline"> Lo mas buscado</span></p>
                                     </li>
+                                    <li class="text-align-center li-more-visited p-3"><h5><i class="fa fa-bus text-primary"></i><span class="li-more-visited-product"> Tractores</span></h5></li>
+                                    <li class="text-align-center li-more-visited p-3"><h5><i class="fa fa-bath text-success"></i><span class="li-more-visited-product"> Muebles</span></h5></li>
+                                    <li class="text-align-center li-more-visited p-3"><h5><i class="fa fa-gamepad text-warning"></i><span class="li-more-visited-product"> Play Station 5</span></h5></li>
+                                    <li class="text-align-center li-more-visited p-3"><h5><i class="fa fa-ship text-danger"></i><span class="li-more-visited-product"> Barcos</span></h5></li>
+                                    <li class="text-align-center li-more-visited p-3"><h5><i class="fa fa-car text-info"></i><span class="li-more-visited-product"> Sofas</span></h5></li>
+                                    <li class="text-align-center li-more-visited p-3"><h5><i class="fa fa-bicycle text-muted"></i><span class="li-more-visited-product"> Patinetes electricos</span></h5></li>
                                 </ul>
                             </section>
                         </div>
                     </div>
                 </div>
-
+                <!---->
             </div>
             <!--end container inside main-->
         </main>
