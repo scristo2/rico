@@ -42,38 +42,35 @@
        }
 
 
-       .matches{
+      
+      #result{
 
-              box-shadow: 0 0 40px blanchedalmond;
-              padding: 2px;
-              overflow: auto;
-              max-height: 200px; 
-       }
+           max-height: 200px;
+           overflow: auto;
+           position: absolute;
+           z-index: 3;
+          background-color: white;
+          border: 1px solid #000000;
+          padding: 2px;
+          
+           
+      }
 
+      #result-ul{
 
-       .match-ul{
+        list-style-type: none;
+      }
 
-              list-style-type: none;
-       }
+      #result-li{
 
-       .li-more-visited{
+         
+      }
 
-              margin-top: 12px;
-       }
+      #result-li:hover{
 
-       .li-more-visited:hover{
+        cursor: pointer;
+      }
 
-              background-color: cornsilk;
-              cursor: pointer;
-              color: red;
-       }
-
- .li-more-visited-product{
-
-      font-weight: 900;
-      margin-left: 10px;
-      border-bottom: 1px solid black;
- }      
 
 
       
