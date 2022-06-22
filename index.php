@@ -80,10 +80,36 @@ header("Connection: close");
         <main class="p-4">
             <div class="search">
                 <i class="fa fa-search"></i>
-                <input type="text" id="search" class="form-control" placeholder="¿Que buscas?">
+                <input type="text" autocomplete="off" id="search" class="form-control" placeholder="¿Que buscas?">
                 <button class="btn btn-primary">Buscar</button>
                 <div class="form-control d-none" id="result">
                     <ul id="result-ul"></ul>
+                </div>
+            </div>
+            <div id="cards" class="row justify-content-around align-items-center">
+                <div class="card col-md-4 card-cards-1">
+                    <img src="./images/laptop.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-md-4 card-cards-2">
+                    <img src="./images/laptop.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mb-3 col-md-9 card-cards-3">
+                    <img style="height: 300px;" src="./images/patinete.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
         </main>

@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
 
+::-webkit-scrollbar {
+       -webkit-appearance: none;
+       width: 7px;
+     }
+     
+     ::-webkit-scrollbar-thumb {
+       border-radius: 4px;
+       background-color: rgba(0, 0, 0, .5);
+       box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+     }
+
+
 .button-menu{
 
     font-weight: 900;
@@ -71,6 +83,24 @@
         cursor: pointer;
       }
 
+      #cards{
+
+       margin-top: 50px;
+      }
+
+      .card-cards-3{
+
+          margin-top: 50px;
+      }
+
+      
+      @media only screen and (max-width: 768px){
+
+          .card-cards-2{
+
+              margin-top: 50px;
+          }
+      }
 
 
       
