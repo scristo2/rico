@@ -57,7 +57,7 @@
       
       #result{
 
-           max-height: 200px;
+           max-height: 300px;
            overflow: auto;
            position: absolute;
            z-index: 3;

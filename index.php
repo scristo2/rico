@@ -88,27 +88,27 @@ header("Connection: close");
             </div>
             <div id="cards" class="row justify-content-around align-items-center">
                 <div class="card col-md-4 card-cards-1">
-                    <img src="./images/laptop.jpg" class="card-img-top" alt="...">
+                    <img src="./images/pulidora.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Bricolaje</h5>
+                        <p class="card-text">Arregla,repara,estropea .... pero con la segunda mano.</p>
+                        <a href="#" class="btn btn-success">verlos</a>
                     </div>
                 </div>
                 <div class="card col-md-4 card-cards-2">
-                    <img src="./images/laptop.jpg" class="card-img-top" alt="...">
+                    <img src="./images/electrodomesticos.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Electromesticos</h5>
+                        <p class="card-text">No dejes para mañana lo que puedes cocinar hoy a la segunda.</p>
+                        <a href="#" class="btn btn-danger">verlos</a>
                     </div>
                 </div>
                 <div class="card mb-3 col-md-9 card-cards-3">
                     <img style="height: 300px;" src="./images/patinete.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Patinetes Electricos</h5>
+                        <p class="card-text">Esta claro que moverse hay que moverse.</p>
+                        <a href="#" class="btn btn-primary">verlos</a>
                     </div>
                 </div>
             </div>
