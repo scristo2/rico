@@ -1,0 +1,9 @@
+{
+
+    "motor" : ["coches", "todoterreno", {"clasicos" : ["todo clasicos", "clasicos", "recambios clasicos"]}, 
+    {"coches sin carnet" : ["todo coches sin carnet", "coches sin carnet", "recambios coches sin carnet"]},
+    {"recambios y accesorios" : ["todo recambios y accesorios", "aire acondicionado y calefaccion"]}
+    ],
+
+    "empleo" : ["construccion", "contables", "mecanico"]
+}

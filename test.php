@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,29 @@
     <title>Document</title>
     <script src="/jquery.js"></script>
 </head>
+
 <body>
     <ul id="ul"></ul>
     <script type="text/javascript">
         $(document).ready(() => {
 
-            let aa = ['mercedes', "audi", "bmw", "seat", "reanualt"];
+            var xhr = new XMLHttpRequest();
 
-            aa.map((e, i) => {
+            xhr.open('GET', 'categorias.json', true);
 
-                $("#ul").append(`<li>${e} | ${i}</li>`)
-            });
+            xhr.responseType = 'json';
+
+            xhr.onreadystatechange = function() {
+
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(this.response.motor[2].clasicos[2]);
+                }
+            };
+
+            xhr.send();
+
         });
     </script>
 </body>
+
 </html>
