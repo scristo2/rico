@@ -86,20 +86,46 @@ header("Connection: close");
                     <ul id="result-ul"></ul>
                 </div>
             </div>
+            <div class="categories" id="categories">
+                <h4>Categorias compraventa de segunda mano.</h4>
+            </div>
             <div id="cards" class="row justify-content-around align-items-center">
                 <div class="card col-md-4 card-cards-1">
                     <img src="./images/pulidora.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Bricolaje</h5>
-                        <p class="card-text">Arregla,repara,estropea .... pero con la segunda mano.</p>
-                        <a href="#" class="btn btn-success">verlos</a>
+                        <h5 class="card-title">Motor</h5>
+                        <p class="card-text">Todo lo mejor del motor de segunda mano</p>
+                        <!-- Example single danger button -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ver categorias
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Todo el motor</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated lin</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Separated lin</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Separated lin</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="card col-md-4 card-cards-2">
-                    <img src="./images/electrodomesticos.jpeg" class="card-img-top" alt="...">
+                    <img src="./images/pulidora.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Electromesticos</h5>
-                        <p class="card-text">No dejes para mañana lo que puedes cocinar hoy a la segunda.</p>
+                        <p class="card-text">No dejes para mañana lo que puedes cocinar hoy.</p>
                         <a href="#" class="btn btn-danger">verlos</a>
                     </div>
                 </div>
@@ -111,7 +137,7 @@ header("Connection: close");
                         <a href="#" class="btn btn-primary">verlos</a>
                     </div>
                 </div>
-            </div>
+            </div><!-- end div cards-->
         </main>
         <!-- Footer -->
         <footer class="bg-dark text-center text-white">
